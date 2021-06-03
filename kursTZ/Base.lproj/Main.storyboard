@@ -56,7 +56,7 @@
                                 <segments>
                                     <segment title="Last 30 days"/>
                                     <segment title="Last 10 days"/>
-                                    <segment title="Today"/>
+                                    <segment title="Today (Tomorrow)"/>
                                 </segments>
                                 <connections>
                                     <action selector="rangeDays:" destination="BYZ-38-t0r" eventType="valueChanged" id="efL-Xb-YSg"/>

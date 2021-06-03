@@ -16,6 +16,7 @@
 		18A6B40B266804F400DCE0D7 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6B40A266804F400DCE0D7 /* SetupViewController.swift */; };
 		18A6B4182668D68100DCE0D7 /* ChingSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A6B4172668D68100DCE0D7 /* ChingSound.mp3 */; };
 		18A6B41D2668E03100DCE0D7 /* us_dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A6B41C2668E03100DCE0D7 /* us_dollar.png */; };
+		18A6B4222668E89B00DCE0D7 /* ChingSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 18A6B4212668E89B00DCE0D7 /* ChingSound.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		18A6B40A266804F400DCE0D7 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		18A6B4172668D68100DCE0D7 /* ChingSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChingSound.mp3; sourceTree = "<group>"; };
 		18A6B41C2668E03100DCE0D7 /* us_dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us_dollar.png; sourceTree = "<group>"; };
+		18A6B4212668E89B00DCE0D7 /* ChingSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ChingSound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 				18A6B3EF2667DBD400DCE0D7 /* Products */,
 				18A6B41C2668E03100DCE0D7 /* us_dollar.png */,
 				18A6B4172668D68100DCE0D7 /* ChingSound.mp3 */,
+				18A6B4212668E89B00DCE0D7 /* ChingSound.wav */,
 			);
 			sourceTree = "<group>";
 		};
@@ -141,6 +144,7 @@
 				18A6B4182668D68100DCE0D7 /* ChingSound.mp3 in Resources */,
 				18A6B3FB2667DBD500DCE0D7 /* Assets.xcassets in Resources */,
 				18A6B3F92667DBD400DCE0D7 /* Main.storyboard in Resources */,
+				18A6B4222668E89B00DCE0D7 /* ChingSound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +238,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -290,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -308,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45CD6N6NQ7;
 				INFOPLIST_FILE = kursTZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,6 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45CD6N6NQ7;
 				INFOPLIST_FILE = kursTZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

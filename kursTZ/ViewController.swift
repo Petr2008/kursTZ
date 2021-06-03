@@ -78,7 +78,9 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource
     @IBAction func readDataFromServer(_ sender: Any) {
 //        var path = "http://www.cbr.ru/scripts/XML_dynamic.asp?date_req1=02/03/2021&date_req2=21/03/2021&VAL_NM_RQ=R01235"
         
-        let dateEnd = Date.init()
+        
+        let dateToday = Date.init()
+        let dateEnd = Calendar.current.date(byAdding: .day, value: 1, to: dateToday)!
         let date = Calendar.current.date(byAdding: .day, value: -30, to: dateEnd)!
 
         let dateFormatter = DateFormatter()
@@ -167,8 +169,10 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource
         content.title = "Dollar USA rate from Bank of Russia"
         content.subtitle = "non-public offer"
         content.body = "test"
-        content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "ChingSound.mp3"))
-
+        content.badge = 1
+//        content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "ChingSound.wav"))
+        content.sound = .default
+        
         let imageName = "us_dollar"
         guard let imageURL = Bundle.main.url(forResource: imageName, withExtension: "png") else { return }
 

@@ -13,6 +13,9 @@
 		18A6B3F92667DBD400DCE0D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A6B3F72667DBD400DCE0D7 /* Main.storyboard */; };
 		18A6B3FB2667DBD500DCE0D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A6B3FA2667DBD500DCE0D7 /* Assets.xcassets */; };
 		18A6B3FE2667DBD500DCE0D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A6B3FC2667DBD500DCE0D7 /* LaunchScreen.storyboard */; };
+		18A6B40B266804F400DCE0D7 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6B40A266804F400DCE0D7 /* SetupViewController.swift */; };
+		18A6B4132668CCA300DCE0D7 /* us_dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18A6B4122668CCA300DCE0D7 /* us_dollar.png */; };
+		18A6B4182668D68100DCE0D7 /* ChingSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18A6B4172668D68100DCE0D7 /* ChingSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,11 @@
 		18A6B3FA2667DBD500DCE0D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A6B3FD2667DBD500DCE0D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A6B3FF2667DBD500DCE0D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A6B4072667DC7B00DCE0D7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		18A6B4082667DC7C00DCE0D7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		18A6B40A266804F400DCE0D7 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		18A6B4122668CCA300DCE0D7 /* us_dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us_dollar.png; sourceTree = "<group>"; };
+		18A6B4172668D68100DCE0D7 /* ChingSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChingSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,8 @@
 			children = (
 				18A6B3F02667DBD400DCE0D7 /* kursTZ */,
 				18A6B3EF2667DBD400DCE0D7 /* Products */,
+				18A6B4122668CCA300DCE0D7 /* us_dollar.png */,
+				18A6B4172668D68100DCE0D7 /* ChingSound.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +69,7 @@
 				18A6B3F12667DBD400DCE0D7 /* AppDelegate.swift */,
 				18A6B3F32667DBD400DCE0D7 /* SceneDelegate.swift */,
 				18A6B3F52667DBD400DCE0D7 /* ViewController.swift */,
+				18A6B40A266804F400DCE0D7 /* SetupViewController.swift */,
 				18A6B3F72667DBD400DCE0D7 /* Main.storyboard */,
 				18A6B3FA2667DBD500DCE0D7 /* Assets.xcassets */,
 				18A6B3FC2667DBD500DCE0D7 /* LaunchScreen.storyboard */,
@@ -108,6 +119,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 18A6B3E52667DBD400DCE0D7;
 			productRefGroup = 18A6B3EF2667DBD400DCE0D7 /* Products */;
@@ -125,6 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18A6B3FE2667DBD500DCE0D7 /* LaunchScreen.storyboard in Resources */,
+				18A6B4132668CCA300DCE0D7 /* us_dollar.png in Resources */,
+				18A6B4182668D68100DCE0D7 /* ChingSound.mp3 in Resources */,
 				18A6B3FB2667DBD500DCE0D7 /* Assets.xcassets in Resources */,
 				18A6B3F92667DBD400DCE0D7 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A6B40B266804F400DCE0D7 /* SetupViewController.swift in Sources */,
 				18A6B3F62667DBD400DCE0D7 /* ViewController.swift in Sources */,
 				18A6B3F22667DBD400DCE0D7 /* AppDelegate.swift in Sources */,
 				18A6B3F42667DBD400DCE0D7 /* SceneDelegate.swift in Sources */,
@@ -150,6 +165,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				18A6B3F82667DBD400DCE0D7 /* Base */,
+				18A6B4072667DC7B00DCE0D7 /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -158,6 +174,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				18A6B3FD2667DBD500DCE0D7 /* Base */,
+				18A6B4082667DC7C00DCE0D7 /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,6 +186,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -216,7 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -271,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

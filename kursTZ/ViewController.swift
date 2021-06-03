@@ -166,7 +166,7 @@ class ViewController: UIViewController, XMLParserDelegate, UITableViewDataSource
         let content = UNMutableNotificationContent()
         content.title = "Dollar USA rate from Bank of Russia"
         content.subtitle = "non-public offer"
-        content.body = ""
+        content.body = "test"
         content.sound = UNNotificationSound(named: UNNotificationSoundName(rawValue: "ChingSound.mp3"))
 
         let imageName = "us_dollar"
